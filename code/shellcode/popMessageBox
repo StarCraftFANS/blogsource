@@ -117,3 +117,8 @@ start:
         call    eax;                    // ExitProcess(0)
     }
 }
+
+int main() {
+    popMessageBox();
+    return 0;
+}
