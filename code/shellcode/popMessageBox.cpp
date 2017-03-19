@@ -39,6 +39,7 @@ module_loop:
         mov     edi,[ebx+0x20]          // IMAGE_EXPORT_DESCRIPTOR->AddressOfNames
         add     edi,eax                 // the address of Names
         xor     ecx,ecx                 // NameOrdinals
+
 name_loop:
         mov     esi,[edi+ecx*4]
         add     esi,eax                 // the address of Name[ecx]
